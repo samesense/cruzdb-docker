@@ -1,4 +1,4 @@
-FROM 2.7-alpine
+FROM python:2.7-alpine
 MAINTAINER Perry Evans <https://github.com/samesense>
 
 RUN pip install cruzdb
